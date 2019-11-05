@@ -121,4 +121,4 @@ api.add_resource(HealthAPI, '/todo/api/v1.0/healthcheck', endpoint='health')
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,host="0.0.0.0")
